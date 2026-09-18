@@ -98,6 +98,7 @@ export function GraphCanvas({ graph, step, start, height = 380 }: Props) {
 
       {graph.vertices.map((v) => {
         const p = positions[v];
+        if (!p) return null;
         const visited = step?.visited.includes(v);
         const isNew =
           step?.selected && (step.selected.to === v || step.selected.from === v) && visited;
