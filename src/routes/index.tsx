@@ -51,7 +51,7 @@ function Index() {
       <header className="sticky top-0 z-50 border-b border-border backdrop-blur-xl">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3">
           <a href="#home" className="font-display text-base font-bold">
-            <span className="text-gradient">Prim&apos;s</span> Visualizer
+            {"\n"}
           </a>
           <nav className="hidden items-center gap-1 md:flex">
             {NAV.map(([id, label]) => (
@@ -107,7 +107,7 @@ function Index() {
               Design and Analysis of Algorithms (DAA)
             </p>
             <h1 className="mt-5 text-5xl leading-tight font-extrabold sm:text-6xl">
-              <span className="text-gradient">Prim&apos;s Algorithm</span> Visualizer
+              <span className="text-gradient">Prim&apos;s Algorithm&nbsp;</span>
             </h1>
             <p className="mt-3 text-lg font-medium text-muted-foreground">
               Finding the Minimum Spanning Tree step by step.
